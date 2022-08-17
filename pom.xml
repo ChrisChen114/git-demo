@@ -22,6 +22,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
 
             <!-- 排除logback依赖 -->
+			<!-- 排除logback依赖11 -->
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
@@ -95,7 +96,8 @@
             <artifactId>spring-boot-starter-cache</artifactId>
         </dependency>
 
-        <!-- 生成二维码 -->
+        <!-- 生成二维码 
+			-->
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>javase</artifactId>
